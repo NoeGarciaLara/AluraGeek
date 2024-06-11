@@ -8,3 +8,19 @@
     font-weight: 600;
     font-style: normal;
   }
+
+  .encabezado{
+    background-color: #5300C8;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .titulo{
+    font-size: 24px;
+    font-family: "Press Start 2P";
+    color: #E5E5E5;
+  }
+
+  .encabezado img{
+    width: 138px;
+    height: 56px;
+  }
