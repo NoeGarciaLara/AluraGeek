@@ -17,9 +17,51 @@
         <title>Alura Geek</title>
     </head>
     <body>
+        <!-- Encabezado de la página -->
         <header class="encabezado">
             <img src="/assets/image 1.png" alt="Corazones">
             <h1 class="titulo">AluraGeek</h1>
         </header>
+        <main>
+            <div class="pagina__productos__form">
+                <section class="mis__productos">
+                    <h1>MIS PRODUCTOS:</h1>
+                    <div class="contenedor__productos">
+                        <card>
+                            <img src="/assets/unsplash_6FDXGY9J6y4.png" alt="Producto">
+                            <h2>Nombre producto</h2>
+                            <h3>$ 60,00</h3>
+                            <img src="/assets/🦆 icon _trash 2_.png" alt="Eliminar producto">
+                        </card> 
+                        <card>
+                            <img src="/assets/image 2.png" alt="Producto">
+                            <h2>Nombre producto</h2>
+                            <h3>$ 60,00</h3>
+                            <img src="/assets/🦆 icon _trash 2_.png" alt="Eliminar producto">
+                        </card>
+                    </div>
+                </section>
+                <section class="agregar__producto">
+                    <h1>AGREGAR PRODUCTO:</h1>
+                    <form class="agregar__producto__formulario" name="form">
+                        <input class="form__producto" type="text" name="nombre" placeholder="Nombre">
+                        <input class="form__producto" type="text" name="precio" placeholder="Precio">
+                        <input class="form__producto" type="text" name="imagen" placeholder="Imagen">
+                        <button type="submit" class="form__producto__enviar">Enviar</button>
+                        <button type="reset" class="form__producto__limpiar">Limpiar</button>
+                    </form>
+                </section>
+            </div> 
+        </main>
+        <footer class="pie__pagina">
+            <div class="logo">
+                <img src="/assets/image 1.png" alt="Corazones">
+                <h1 class="titulo">AluraGeek</h1>
+            </div>
+            <div class="texto">
+                <h2>DESARROLLADO POR NOE GARCIA LARA</h2>
+                <h3>ALURA LATAM 2024</h3>
+            </div>
+        </footer>
     </body>
 </html>

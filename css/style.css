@@ -8,7 +8,7 @@
     font-weight: 600;
     font-style: normal;
   }
-
+  /* encabezado */
   .encabezado{
     background-color: #5300C8;
     padding: 20px 0px 20px 0px;
@@ -24,3 +24,56 @@
     width: 138px;
     height: 56px;
   }
+/* cuerpo */
+  main{
+    margin: 50px 0px 50px 0px;
+    padding: 60px 40px;
+  }
+  .pagina__productos__form{
+    font-family: "Press Start 2P";
+    font-size: 24px;
+  }
+
+  .mis__productos h1{
+    margin: 0px 0px 40px 0px;
+  }
+  /* tarjeta de productos */
+
+  .contenedor__productos{
+    background-color: #5300C8;
+  }
+  .contenedor__productos h2{
+    font-family: "IBM Plex Mono";
+    color: #FFFFFF;
+    font-size: 15px;
+  }
+  .contenedor__productos h3{
+    font-family: "IBM Plex Mono";
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+/* pie de pagina */
+
+  .pie__pagina{
+  background-color: #5300C8;
+  padding: 64px;
+}
+
+  .texto{
+  color: #FFFFFF;
+}
+
+  .texto h2{
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.texto h3{
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 16px;
+}

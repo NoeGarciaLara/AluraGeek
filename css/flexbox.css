@@ -4,3 +4,31 @@
     justify-content: center;
     width: 100%;
 }
+.pagina__productos__form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor__productos{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.texto h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
