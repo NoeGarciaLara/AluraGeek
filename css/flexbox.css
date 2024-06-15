@@ -1,18 +1,41 @@
+/* encabezado */
 .encabezado{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
+/* main */
+/* productos */
 .pagina__productos__form{
     display: flex;
     justify-content: space-around;
 }
-
-.contenedor__productos{
+.mis__productos{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
-
+.contenedor__productos{
+    overflow: scroll;
+    max-height: 50vh;
+}
+.datos__producto{
+    display: flex;
+    flex-direction: column;
+}
+.precio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* formulario */
+ .agregar__producto__formulario{
+    display: flex;
+    flex-direction: column;
+ }
+/* pie de pagina */
 .logo{
     display: flex;
     align-items: center;
