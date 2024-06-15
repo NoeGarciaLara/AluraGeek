@@ -18,7 +18,8 @@
     
 }
 .contenedor__productos{
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
     max-height: 50vh;
 }
 .datos__producto{
@@ -34,6 +35,11 @@
  .agregar__producto__formulario{
     display: flex;
     flex-direction: column;
+ }
+ /* botones */
+ .botones{
+    display: flex;
+    justify-content: space-between;
  }
 /* pie de pagina */
 .logo{
