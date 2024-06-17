@@ -61,13 +61,14 @@
                 </section>
                 <section class="agregar__producto">
                     <h1>AGREGAR PRODUCTO:</h1>
-                    <form class="agregar__producto__formulario" name="form">
-                        <input class="form__producto" type="text" name="nombre" placeholder="Nombre">
-                        <input class="form__producto" type="text" name="precio" placeholder="Precio">
-                        <input class="form__producto" type="text" name="imagen" placeholder="Imagen">
+                    <form class="agregar__producto__formulario" name="form" data-formulario>
+                        <input class="form__producto" type="text" name="nombre" placeholder="Nombre" required data-nombre>
+                        <input class="form__producto" type="text" name="precio" placeholder="Precio" required data-precio>
+                        <input class="form__producto" type="text" name="imagen" placeholder="Imagen" required data-urlImagen>
                         <div class="botones">
                             <button type="submit" class="form__producto__enviar">Enviar</button>
-                            <button type="reset" class="form__producto__limpiar">Limpiar</button>
+                            <button type="reset" class="
+                            ">Limpiar</button>
                         </div>
                     </form>
                 </section>
