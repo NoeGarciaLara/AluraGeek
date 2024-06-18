@@ -1,16 +1,3 @@
 {
-  "productos": [
-    {
-      "id": "1",
-      "nombre": "stormtrooper",
-      "precio": "$60.00",
-      "urlImagen": "https://th.bing.com/th/id/OIP.l0CCS7hsGzODhzpwvcKB6QAAAA?rs=1&pid=ImgDetMain"
-    },
-    {
-      "id": "2d74",
-      "nombre": "Nuez PvZ",
-      "precio": "$10.00",
-      "urlImagen": "https://http2.mlstatic.com/D_NQ_NP_924526-MLM50034187476_052022-F.jpg"
-    }
-  ]
+  "productos": []
 }

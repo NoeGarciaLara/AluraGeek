@@ -25,6 +25,17 @@ async function enviarProducto(nombre, precio, urlImagen) {
     return conexionConvertida;
 }
 
+const borrarProducto = async (id) => {
+    try {
+        const res = await fetch(`http://localhost:3000/productos/${id}`, {
+            method: "DELETE"
+        });
+        return await res.json();
+    } catch (error) {
+        return console.log(error);
+    }
+};
+
 export const conexionAPI = {
-    listarProductos, enviarProducto
+    listarProductos, enviarProducto, borrarProducto
 }

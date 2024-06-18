@@ -47,6 +47,17 @@
     gap: 10px;
     padding: 15px;
     box-shadow: -10px 10px 8px rgba(0, 0, 0, 0.5);
+    place-items: center;
+  }
+  .no__producto{
+    width: 176px;
+    height: 176px;
+    grid-column: 1 / -1;
+  }
+  .no__productos__mensaje{
+    grid-column: 1 / -1;
+    color: #000000;
+    font-size: 16px;
   }
   .contenedor__productos card{
     background-color: #5300C8;
@@ -58,6 +69,7 @@
   .eliminar__producto{
     width: 24px;
     height: 24px;
+    margin: 0px 10px 5px 0px;
   }
   .producto {
     margin: 10px;
