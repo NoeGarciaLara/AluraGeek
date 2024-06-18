@@ -19,7 +19,7 @@ async function enviarProducto(nombre, precio, urlImagen) {
     const conexionConvertida = conexion.json();
 
     if(!conexion.ok){
-        throw new Error ("Ha ocurrido un error al enviar el video");
+        throw new Error ("Ha ocurrido un error al actualizar el producto");
     }
 
     return conexionConvertida;

@@ -26,37 +26,8 @@
             <div class="pagina__productos__form">
                 <section class="mis__productos">
                     <h1>MIS PRODUCTOS:</h1>
-                    <div class="contenedor__productos">
-                        <card>
-                            <img src="/assets/unsplash_6FDXGY9J6y4.png" alt="Producto">
-                            <div class="datos__producto">
-                                <h2>Nombre producto</h2>
-                                <div class="precio">
-                                    <h3>$ 60,00</h3>
-                                    <img src="/assets/🦆 icon _trash 2_.png" alt="Eliminar producto">
-                                </div>
-                            </div> 
-                        </card>
-                        <card>
-                            <img src="/assets/image 2.png" alt="Producto">
-                            <div class="datos__producto">
-                                <h2>Nombre producto</h2>
-                                <div class="precio">
-                                    <h3>$ 60,00</h3>
-                                    <img src="/assets/🦆 icon _trash 2_.png" alt="Eliminar producto">
-                                </div>
-                            </div>    
-                        </card>
-                        <card>
-                            <img src="/assets/unsplash_6FDXGY9J6y4.png" alt="Producto">
-                            <div class="datos__producto">
-                                <h2>Nombre producto</h2>
-                                <div class="precio">
-                                    <h3>$ 60,00</h3>
-                                    <img src="/assets/🦆 icon _trash 2_.png" alt="Eliminar producto">
-                                </div>
-                            </div> 
-                        </card>
+                    <div class="contenedor__productos" data-lista>
+                        <script src="./js/mostrarProducto.js" type="module"></script>
                     </div>
                 </section>
                 <section class="agregar__producto">
@@ -67,13 +38,13 @@
                         <input class="form__producto" type="text" name="imagen" placeholder="Imagen" required data-urlImagen>
                         <div class="botones">
                             <button type="submit" class="form__producto__enviar">Enviar</button>
-                            <button type="reset" class="
-                            ">Limpiar</button>
+                            <button type="reset" class="form__producto__limpiar">Limpiar</button>
                         </div>
                     </form>
                 </section>
             </div> 
         </main>
+        <script src="./js/crearProducto.js" type="module"></script>
         <footer class="pie__pagina">
             <div class="logo">
                 <img src="/assets/image 1.png" alt="Corazones">
