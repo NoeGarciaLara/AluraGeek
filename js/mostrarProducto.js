@@ -6,12 +6,12 @@ export default function crearCard(nombre, precio, urlImagen){
     const producto = document.createElement("card");
     producto.className = "producto__item";
     producto.innerHTML=`<card>
-                            <img src="${urlImagen}" alt="Producto">
+                            <img src="${urlImagen}" class="producto">
                             <div class="datos__producto">
                                 <h2>${nombre}</h2>
                                 <div class="precio">
                                     <h3>${precio}</h3>
-                                    <img src="/assets/🦆 icon _trash 2_.png" alt="Eliminar producto">
+                                    <img src="/assets/🦆 icon _trash 2_.png" class="eliminar__producto">
                                 </div>
                             </div> 
                         </card>`;
